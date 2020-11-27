@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="aditya">#ffffff</color>
+    <color name="black">#FF151414</color>
+    <color name="pink">#E8115A</color>
+    <color name="grey">#FFA18484</color>
+    <color name="akash">#FFD5A052</color>
+
+</resources>

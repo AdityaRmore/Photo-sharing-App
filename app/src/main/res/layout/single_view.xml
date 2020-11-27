@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="#FFD5A052">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@color/aditya"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/image_singleview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#FFA18484"
+            android:cropToPadding="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rog12"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/like_btn"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/favorite_border_24"
+                />
+            <TextView
+                android:id="@+id/likes_textview"
+                android:layout_width="55dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:text=""
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/download_btn"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/get_app_24" />
+            <Button
+                android:id="@+id/btn_favourite"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/home_dark"
+                android:layout_marginLeft="10dp"
+                tools:ignore="InvalidId" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

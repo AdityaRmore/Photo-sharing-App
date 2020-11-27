@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#67C0E8"
+    tools:context=".My_Profile">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/id_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        />
+
+
+
+
+
+    <TextView
+        android:id="@+id/id_name"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/id_image"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="NAME"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/id_email"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/id_name_signed"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="EMAIL"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/id_name_signed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/id_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textStyle="italic"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/id_email_signed"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/id_email"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textStyle="italic"
+        android:textSize="18dp" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/menu_navigation">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:textStyle="bold"
+        android:layout_below="@+id/id_email_signed"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+
+        android:background="@drawable/bgbtnsignout"/>
+
+</RelativeLayout>

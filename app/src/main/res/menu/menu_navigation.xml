@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_dark"
+        />
+    <item
+        android:id="@+id/all"
+        android:title="All"
+        android:icon="@drawable/people"
+        />
+    <item
+        android:id="@+id/wallpaper"
+        android:title="Wallpaper"
+        android:icon="@drawable/wallpaper_dark"
+        />
+    <item
+        android:id="@+id/favourite"
+        android:title="Favourite"
+        android:icon="@drawable/favorite_24"
+        />
+    <item
+        android:id="@+id/account"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        />
+</menu>

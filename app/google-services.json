@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1073322652450",
+    "firebase_url": "https://photoshop3-665c0.firebaseio.com",
+    "project_id": "photoshop3-665c0",
+    "storage_bucket": "photoshop3-665c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073322652450:android:7e62aaccbc738220e12b7b",
+        "android_client_info": {
+          "package_name": "com.example.photoshop3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1073322652450-v56eomu9q2uvfm7sp4bpsgeqlpasnc8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9GyjJC7wK0w8zv1aGNubYxdI-FYUmFTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1073322652450-v56eomu9q2uvfm7sp4bpsgeqlpasnc8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

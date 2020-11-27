@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_drawer"
+        android:title="Home"
+        android:icon="@drawable/home_dark"/>
+
+    <item
+        android:id="@+id/myProfile_drawer"
+        android:title="Admin"
+        android:icon="@drawable/ic_baseline_account_circle_24"/>
+
+    <item
+        android:id="@+id/instagrem_drawer"
+        android:title="Instagram"
+        android:icon="@drawable/ic_icons8_instagram"/>
+
+    <item
+        android:id="@+id/shareapp_drawer"
+        android:title="Share this App"
+        android:icon="@drawable/share_24"/>
+
+    <item
+        android:id="@+id/visitus"
+        android:title="Visit Us"
+        android:icon="@drawable/ic_baseline_visit"/>
+
+    <item
+        android:id="@+id/exit_drawer"
+        android:title="Exit"
+        android:icon="@drawable/exit_to_app_24"/>
+
+</menu>

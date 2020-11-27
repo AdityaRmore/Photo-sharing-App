@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".HomeActivity3">
+
+    <ImageView
+        android:id="@+id/imageViewadd_3"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_baseline"
+        android:scaleType="fitXY"/>
+
+    <EditText
+        android:id="@+id/inputimagename_3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your  Name * (optional)"
+        android:layout_below="@+id/imageViewadd_3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <TextView
+        android:id="@+id/textviewprogress_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0%"
+        android:gravity="center"
+        android:layout_below="@+id/inputimagename_3"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressbar_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_below="@+id/textviewprogress_3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+    <Button
+        android:id="@+id/btnupload_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD"
+        android:layout_below="@+id/progressbar_3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+</RelativeLayout>
